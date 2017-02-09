@@ -22,6 +22,11 @@
 		display: block;
 	}
 
+	.skills svg{
+		width: 65px;
+		height: 65px;
+	}
+
 	body {
 		line-height: 1;
 	}
@@ -54,6 +59,33 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+	}
+
+	.project{
+		position: relative
+	}
+
+	.project-title{
+		font-weight: bold;
+	}
+
+	.overlay{
+		position: absolute;
+	}
+
+	.skills{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.skills img{
+		height: 54px;
+		width: 54px;
+	}
+
+	.skills li{
+		margin-right: 25px;
 	}
 
 /* Containers */
